@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="search_engine_entries">
+<item>"বাইদু"</item>
+<item>"গুগল"</item>
+<item>"139"</item>
+<item>"য়াহু"</item>
+<item>"বিং"</item>
+</string-array>
+<string-array name="search_engine_summary">
+<item>"বাইদু অসি দিফাওল্ট সর্চ ইনজিন ওইনা খল্লু"</item>
+<item>"গুগল অসি দিফাওল্ট সর্চ ইনজিন ওইনা খল্লু"</item>
+<item>"139 অসি দিফাওল্ট সর্চ ইনজিন ওইনা খল্লু"</item>
+<item>"য়াহু অসি দিফাওল্ট সর্চ ইনজিন ওইনা খল্লু"</item>
+<item>"বিং অসি দিফাওল্ট সর্চ ইনজিন ওইনা খল্লু"</item>
+</string-array>
+</resources>

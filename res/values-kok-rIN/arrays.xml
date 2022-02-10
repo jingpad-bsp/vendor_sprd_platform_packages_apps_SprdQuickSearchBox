@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="search_engine_entries">
+<item>"बायडू"</item>
+<item>"गुगल"</item>
+<item>"139"</item>
+<item>"याहू"</item>
+<item>"बींग"</item>
+</string-array>
+<string-array name="search_engine_summary">
+<item>"बायडूक तुमचे डिफॉल्ट सोद इंजीन म्हूण वेंचात"</item>
+<item>"गुगलाक तुमचे डिफॉल्ट सोद इंजीन म्हूण वेंचात"</item>
+<item>"139क तुमचे डिफॉल्ट सोद इंजीन म्हूण वेंचात"</item>
+<item>"याहूक तुमचे डिफॉल्ट सोद इंजीन म्हूण वेंचात"</item>
+<item>"बींगाक तुमचे डिफॉल्ट सोद इंजीन म्हूण वेंचात"</item>
+</string-array>
+</resources>

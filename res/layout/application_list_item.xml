@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/suggestion_view_height" >
+
+    <TextView android:id="@+id/header_text"
+        style="@style/SearchResultGroupHeader"
+        android:singleLine="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:text="@string/corpus_label_apps" />
+
+    <RelativeLayout
+        android:id="@+id/search_result_item_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/suggestion_view_content_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="4dp"
+        android:focusable="true"
+        android:background="@drawable/search_result_box_middle_normal"
+        android:layout_below="@id/header_text" >
+
+        <ImageView android:id="@+id/icon1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="centerInside"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" />
+
+        <TextView android:id="@+id/text1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon1"
+            android:textSize="13sp"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="search_engine_entries">
+<item>Baidu</item>
+<item>Google</item>
+<item>"139"</item>
+<item>ਯਾਹੂ</item>
+<item>bing</item>
+</string-array>
+<string-array name="search_engine_summary">
+<item>Baidu ਨੂੰ ਡਿਫੌਲਟ ਖੋਜ ਇੰਜਨ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ</item>
+<item>Google ਨੂੰ ਡਿਫੌਲਟ ਖੋਜ ਇੰਜਨ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ</item>
+<item>139 ਨੂੰ ਡਿਫੌਲਟ ਖੋਜ ਇੰਜਨ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ</item>
+<item>yahoo ਨੂੰ ਡਿਫੌਲਟ ਖੋਜ ਇੰਜਨ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ</item>
+<item>bing ਨੂੰ ਡਿਫੌਲਟ ਖੋਜ ਇੰਜਨ ਦੇ ਤੌਰ ਤੇ ਚੁਣੋ</item>
+</string-array>
+</resources>

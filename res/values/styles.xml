@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Suggestion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">@dimen/suggestion_view_height</item>
+    </style>
+
+    <style name="FocusingSuggestion" parent="Suggestion">
+        <item name="android:background">@drawable/highlighting_suggestion_background</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SuggestionText1">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/search_text</item>
+        <item name="android:textSize">@dimen/suggestion_text1_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingEnd">2dip</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="SuggestionText2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/search_text</item>
+        <item name="android:textSize">@dimen/suggestion_text2_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_height">@dimen/suggestion_text2_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:paddingEnd">2dip</item>
+        <item name="android:gravity">start|top</item>
+    </style>
+
+    <style name="SuggestionIcon1">
+        <item name="android:layout_height">@dimen/suggestion_icon_size</item>
+        <item name="android:layout_width">@dimen/suggestion_icon_size</item>
+        <item name="android:paddingStart">2dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+    </style>
+
+    <style name="WebSuggestionIcon1" parent="@style/SuggestionIcon1">
+    </style>
+
+    <style name="SuggestionIcon2">
+        <item name="android:layout_height">@dimen/suggestion_icon_size</item>
+        <item name="android:layout_width">@dimen/suggestion_icon_size</item>
+    </style>
+
+    <style name="SuggestionText1.Query" parent="@style/SuggestionText1">
+    </style>
+
+    <style name="SuggestionText1.Suggested" parent="@style/SuggestionText1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Animation.SelectSearchSource" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/corpus_selector_open</item>
+        <item name="android:windowExitAnimation">@anim/corpus_selector_close</item>
+    </style>
+
+    <style name="QuickSearchBoxActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    </style>
+
+    <style name="QuickSearchBoxActionBarUniverseUI" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+
+    <style name="SettingsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/search_text</item>
+        <item name="android:textColorPrimary">@color/settings_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/settings_secondary_text_color</item>
+        <item name="android:textColorTertiary">@color/settings_tertiary_text_color</item>
+
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <!--  Drawable for the back button -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimaryDark">@color/search_bg</item>
+        <item name="colorPrimary">@color/search_bg</item>
+        <item name="android:colorMultiSelectHighlight">@android:color/white</item>
+        <item name="android:colorControlActivated">@android:color/holo_green_dark</item>
+        <item name="android:colorAccent">@color/search_text</item>
+    </style>
+
+    <!-- Style applied to the "Settings" screen. -->
+    <style name="SettingsStyle" parent="SettingsTheme">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:windowBackground">@drawable/search_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:actionBarSize">56dp</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/search_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="titleTextColor">@color/search_text</item>
+    </style>
+
+    <style name="SectionHeaderStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/section_header_text_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="SearchResultGroupHeader">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/search_text</item>
+        <item name="android:textSize">@dimen/suggestion_text1_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="Widget.ListView.Search" parent="@android:style/Widget.AbsListView">
+        <item name="android:listSelector">@null</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="SettingsHeaderStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearanceSearchPrim">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearanceSearchSeco">
+        <item name="android:textColor">#7FFFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="search_engine_entries">
+<item>"Baidu"</item>
+<item>"Google"</item>
+<item>"139"</item>
+<item>"Yahoo"</item>
+<item>"Bing"</item>
+</string-array>
+<string-array name="search_engine_summary">
+<item>"ပုံသေရှာဖွေရေး အင်ဂျင်အဖြစ် Baidu ကို ရွေးချယ်ပါ"</item>
+<item>"ပုံသေရှာဖွေရေး အင်ဂျင်အဖြစ် Google ကို ရွေးချယ်ပါ"</item>
+<item>"ပုံသေရှာဖွေရေး အင်ဂျင်အဖြစ် 139 ကို ရွေးချယ်ပါ"</item>
+<item>"ပုံသေရှာဖွေရေး အင်ဂျင်အဖြစ် Yahoo ကို ရွေးချယ်ပါ"</item>
+<item>"ပုံသေရှာဖွေရေး အင်ဂျင်အဖြစ် Bing ကို ရွေးချယ်ပါ"</item>
+</string-array>
+</resources>

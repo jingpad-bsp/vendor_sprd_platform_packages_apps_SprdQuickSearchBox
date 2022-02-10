@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="search_engine_entries">
+<item>"बैदू"</item>
+<item>"गुगल"</item>
+<item>"139"</item>
+<item>"याहू"</item>
+<item>"पहुंचनैय"</item>
+</string-array>
+<string-array name="search_engine_summary">
+<item>"बैदू क डिफाॅल्ट इंजिनक लेल चुनू"</item>
+<item>"गुगल क डिफाॅल्ट इंजिनक लेल चुनू"</item>
+<item>"139 क डिफाॅल्ट इंजिनक लेल चुनू"</item>
+<item>"याहू क डिफाॅल्ट इंजिनक लेल चुनू"</item>
+<item>"पहुंचय बला क डिफाॅल्ट इंजिनक लेल चुनू"</item>
+</string-array>
+</resources>

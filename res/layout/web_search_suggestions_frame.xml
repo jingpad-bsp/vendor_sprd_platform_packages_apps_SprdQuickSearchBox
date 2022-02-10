@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/web_search_frame"
+    android:layout_width="match_parent"
+    android:layout_height="102dp"
+    android:clickable="false" >
+
+    <TextView android:id="@+id/web_header_text"
+        style="@style/SearchResultGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:singleLine="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:layout_marginStart="16dp" />
+
+    <TextView android:id="@+id/web_text1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/web_header_text"
+        android:singleLine="true"
+        android:paddingStart="20dp"
+        android:paddingBottom="4dp"
+        android:layout_centerVertical="true"
+        android:text="@string/corpus_description_web"
+        android:textSize="13sp"
+        android:textColor="@color/search_text"
+        android:background="@drawable/search_box"
+        android:gravity="center_vertical"
+        android:clickable="true" />
+
+    <TextView
+        style="@style/SearchResultGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:singleLine="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/web_text1"
+        android:clickable="false"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
